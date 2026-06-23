@@ -58,6 +58,7 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           npm install
+          npx expo install react-native-svg react-native-svg-transformer
           npm install -g eas-cli@latest
 
       - name: 🔄 Verify EAS CLI installation
