@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fast_food",
-    "slug": "fast_food",
+    "name": "food-ordering",
+    "slug": "food-ordering",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.foodorder.app"
     },
     "web": {
       "bundler": "metro",
